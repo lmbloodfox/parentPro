@@ -25,6 +25,7 @@ import cn.hutool.core.util.NumberUtil;
 public class ProductViewServiceRibbonApplication {
 
 	public static void main(String[] args) {
+		int s = 0;
     	int port = 0;
     	int defaultPort = 8010;
     	Future<Integer> future = ThreadUtil.execAsync(() ->{
