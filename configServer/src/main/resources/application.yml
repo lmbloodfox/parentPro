@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: configServer
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/how2j/springcloudConfig/
+          searchPaths: respo
